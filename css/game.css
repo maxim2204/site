@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+    background-color: #fff9db;
+   }
+
+ #top {
+   height: 10%;
+   background: #a3ce4c;
+ }
+
+ #dop {
+   height: 10%;
+   display: flex;
+ }
+
+ .btn button {
+   height: 100%;
+   background-color: #8de8ff;
+   font-size: 35px;
+
+  }
+
+  .btn button:hover {
+    box-shadow:
+      1px 1px #53ea93,
+      2px 2px #53ea93,
+      3px 3px #53ea93,
+      4px 4px #53ea93,
+      5px 5px #53ea93,
+      6px 6px #53ea93,
+      7px 7px #53ea93;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+   }
+
+ .btn {
+   width: 33%;
+   text-align: center;
+   margin-top: 0.5%;
+   margin-bottom: 0.5%;
+ }
+
+ #qwe {
+   height: 30%;
+   background: #e4faf7;
+ }
+
+ #osn {
+   width: 70%;
+   height: 100%;
+   margin: auto;
+   position: absolute;
+   top: 0; left: 0; bottom: 0; right: 0;
+ }
+
+ .one {
+   padding: 0% 0% 0% 5%;
+   display: flex;
+ }
+
+.two {
+  padding: 0% 0% 0% 5%;
+  display: flex;
+}
+
+ #btn {
+   height: 40%;
+ }
+
+
+.bt {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+}
+
+#lvl button {
+  width: 100%;
+  height: 100%;
+  background-color: #8de8ff;
+  font-size: 35px;
+}
+
+.bt {
+  width: 45%;
+}
+
+.bt button {
+  width: 100%;
+  height: 100%;
+  background-color: #8de8ff;
+  font-size: 35px;
+}
+
+.bt button:hover {
+  box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+#levelHead {
+  font-size: 4em;
+  color: #4f461b;
+}
+
+#qwenumber {
+  font-size: 1.3em;
+  color: #4f461b;
+}
+
+#qwetext {
+  padding: 6% 0% 0% 0%;
+  font-size: 1.8em;
+}
+
+#sidebar {
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  background: #57626F;
+  border-right: 4px solid #E0E5EA;
+}
+
+#sidebar ul li:first-child {
+  text-align: center;
+  color: white;
+  font-size: 1.95em;
+  list-style: none;
+  padding: 25px 10px 10px 10px
+}
+
+#sidebar ul li:not(:first-child) {
+  width: 90%;
+  margin-left: 10%;
+  font-size: 1.1em;
+  list-style: none;
+  padding: 15px 10px;
+}
+
+#sidebar ul li a {
+  color: #dfe5eb;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  color: #59e9df;
+}
